@@ -7,7 +7,7 @@
 body
 {
     width: 100%;
-    background-image: url("./image/BG.svg");
+    background-image: url("../image/BG.svg");
     background-size: cover;
     background-position: center;
     text-align: center;
