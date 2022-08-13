@@ -1,0 +1,68 @@
+body{
+    margin: 0;
+    padding: 0;
+    font-family:'Segoe UI';
+    background-image: url(/image/BG.svg);
+    background-color: #494949;
+  }
+  .container{
+    width: 40%;
+    min-width: 320px;
+    padding: 40px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    background: #2c2c2c;
+    text-align: center;
+    border-radius: 50px 50px 50px 50px;
+    box-shadow: 0 40px 40px;
+  
+}
+  .container h1{
+    color: white;
+    font-weight: 500;
+  }
+  .container input[type="email"],.container input[type="scholar ID"],.container input[type="tel"],.container input[type="password"]{
+    border: 0;
+    background: none;
+    display: block;
+    margin: 20px auto;
+    text-align: center;
+    border: 2px solid #3498db;
+    padding: 14px 10px;
+    width: 60%;
+    min-width: 240px;
+    outline: none;
+    color: white;
+    font-size: 16px;
+    border-radius: 24px;
+    transition: 0.1;
+  }
+  .container input[type="email"]:focus,.container input[type="scholar ID"]:focus,.container input[type="tel"]:focus,.container input[type="password"]:focus{
+    width: 80%;
+    min-width: 280px;
+    border-color: #2ecc71;
+  }
+  .container a{
+    border: 0;
+    background: none;
+    display: block;
+    margin: 20px auto;
+    width: 20%;
+    text-align: center;
+    border: 2px solid #2ecc71;
+    padding: 14px 25px;
+    outline: none;
+    color: white;
+    border-radius: 24px;
+    transition: 0.25s;
+    font-size: 17px;
+    font-family:'Trebuchet MS';
+  }
+  .container a:hover{
+    background: #2ecc71;
+  }
+  a{
+    text-decoration: none;
+  }

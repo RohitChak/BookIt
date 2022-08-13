@@ -1,0 +1,113 @@
+*
+{
+    margin: 0;
+    padding :0;
+    font-family: sans-serif;
+}
+body
+{
+    width: 100%;
+    background-image: url("/image/BG.svg");
+    background-size: cover;
+    background-position: center;
+    text-align: center;
+}
+.logo
+{
+    width: 45%;
+    margin:auto;
+    padding-top: 5%;
+    padding-right: 0%;
+    align-items:center;
+    min-width: 333px;
+}
+article
+{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+button
+{
+    width: 15%;
+    min-width: 100px;
+    padding: 15px 0;
+    margin: 20px 10px;
+    border-radius: 25px;
+    font-weight: bold;
+    border: 3px solid #2254c4;
+    background: transparent;
+    color: black;
+    cursor: pointer;
+    position: relative;
+    overflow: hidden;
+}
+span
+{
+    background: #2254c4;
+    height: 100%;
+    width: 0%;
+    border-radius: 25px;
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    z-index: -1;
+    transition: 0.4s;
+}
+button:hover span
+{
+    width: 100%;
+}
+button:hover span
+{
+    border: none;
+}
+button:hover
+{
+    color: white;
+}
+a
+{
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+    text-transform: uppercase;
+    position: relative;
+}
+.links
+{
+    width: 60%;
+    margin: auto;
+    padding: 25px 0;
+    display: flex;
+    flex-flow: wrap;
+    align-items: center;
+    justify-content: space-between;
+}
+ul
+{
+    width: 25%;
+    margin: auto;
+    padding: 25px 0;
+    list-style-type: none;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.links a::after
+{
+   content: '';
+   width: 0;
+   height: 3px;
+   background: #2254c4;
+   position: absolute;
+   bottom: -3px;
+   left: 0;
+   transition: 0.4s;
+}
+.links a:hover::after
+{
+    width: 100%;
+}
+a:hover
+{
+    color: #4dc3f7;
+    text-decoration-color: #4dc3f7;
+}
